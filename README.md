@@ -10,7 +10,6 @@
  \   *-----*     *-----*     *-----*     *-----*     *-----*   /
   \                                                           /
    \\\\\\\\\\\\\\\\\\\\\\\\\\\\ /////////////////////////////
-<p align="center"> <i>Discrete Kinetic Network Simulator for Atomistic Transport</i> </p>
 ```
 
 **NetworKin** is a scientific simulation tool for modeling diffusion–reaction
