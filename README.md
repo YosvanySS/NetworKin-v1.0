@@ -15,10 +15,10 @@ transport and kinetic network modeling.
 ## Authors
 
 **Julien Denis**  
-Aix-Marseille Université
+Aix Marseille Univ, CNRS, PIIM, Marseille, France
 
 **Yosvany Silva-Solís**  
-Aix-Marseille Université
+Aix Marseille Univ, PIIM, Marseille, France
 
 ---
 
@@ -99,8 +99,8 @@ Saves results in HDF5 format.
 
 If you use **NetworKin** in your scientific work, please cite the article where the method and software are presented:
 
-**Silva-Solís, Y., Denis, J., Hodille, E. A., Ferro, Y.**  
-*Hydrogen transport at metallic interfaces: modeling the tungsten-copper system.*  
+**Hydrogen transport at metallic interfaces: modeling the tungsten-copper system.**
+*Silva-Solís, Y., Denis, J., Hodille, E. A., Ferro, Y.*
 Physical Review Materials **Volume_xxx**, Pages_xxx (Year_xxx)  
 DOI: https://doi.org/[DOI_xxx]
 
