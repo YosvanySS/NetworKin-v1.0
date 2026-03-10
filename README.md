@@ -51,3 +51,44 @@ Install dependencies with:
 
 ```bash
 pip install numpy scipy h5py
+```
+
+---
+
+## Simulation Workflow
+
+### Step 1 — Input parsing
+Loads simulation parameters from the user input file.
+
+### Step 2 — Variable initialization
+- Validates boundary conditions
+- Computes jump frequencies
+- Normalizes time and concentrations
+- Prepares ODE solver parameters
+
+### Step 3 — Network construction
+Builds the interstitial network and allowed atomic jumps.
+
+### Step 4 — Boundary conditions
+Applies physical boundary conditions to the network.
+
+### Step 5 — Time integration
+Solves the kinetic ODE system using `scipy.integrate.solve_ivp`.
+
+### Step 6 — Thermodynamic equilibrium (optional)
+Computes equilibrium concentrations if requested.
+
+### Step 7 — Output storage
+Saves results in HDF5 format.
+
+---
+
+## Datasets
+
+| Dataset           | Description                     |
+| ----------------- | ------------------------------- |
+| `time`            | Simulation time grid            |
+| `Ci`              | Site concentrations vs time     |
+| `network_label`   | Names of network sites          |
+| `is_Ci_thermo_eq` | Equilibrium computed flag       |
+| `Ci_thermo_eq`    | Thermodynamic equilibrium state |
