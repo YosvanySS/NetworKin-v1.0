@@ -1,5 +1,18 @@
 # NetworKin-v1.0
 
+```text
+   ///////////////////////////// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  /                                                           \
+ /   *-----*     *-----*     *-----*     *-----*     *-----*   \
+/   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   \
+   *--- N --- e --- t --- w --- o --- r --- K --- i --- n ---*   
+\   \ /   \ /   \ /   \ /   \ /   \ /   \ /   \ /   \ /   \ /   /
+ \   *-----*     *-----*     *-----*     *-----*     *-----*   /
+  \                                                           /
+   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ /////////////////////////////
+<p align="center"> <i>Discrete Kinetic Network Simulator for Atomistic Transport</i> </p>
+```
+
 **NetworKin** is a scientific simulation tool for modeling diffusion–reaction
 processes on discrete interstitial networks by solving systems of ordinary
 differential equations (ODEs).
