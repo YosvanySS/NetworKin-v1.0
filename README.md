@@ -92,3 +92,28 @@ Saves results in HDF5 format.
 | `network_label`   | Names of network sites          |
 | `is_Ci_thermo_eq` | Equilibrium computed flag       |
 | `Ci_thermo_eq`    | Thermodynamic equilibrium state |
+
+---
+
+## Citation
+
+If you use **NetworKin** in your scientific work, please cite the article where the method and software are presented:
+
+**Silva-Solís, Y., Denis, J., Hodille, E. A., Ferro, Y.**  
+*Hydrogen transport at metallic interfaces: modeling the tungsten-copper system.*  
+Physical Review Materials **Volume_xxx**, Pages_xxx (Year_xxx)  
+DOI: https://doi.org/[DOI_xxx]
+
+### BibTeX
+
+```bibtex
+@article{networkin_paper,
+  author  = {Silva-Solís, Y., Denis, J., Hodille, E. A., Ferro, Y.},
+  title   = {Hydrogen transport at metallic interfaces: modeling the tungsten-copper system.},
+  journal = {Physical Review Materials},
+  year    = {2026},
+  volume  = {xxxxx},
+  pages   = {xxxxx},
+  doi     = {xxxxx}
+}
+```
